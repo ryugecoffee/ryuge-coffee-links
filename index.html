@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="RYUGE COFFEE links: online shop, Instagram, and Google review."
+      content="龍華珈琲 links: online shop, Instagram, and Google review."
     />
     <meta name="theme-color" content="#f8f5ee" />
-    <meta property="og:title" content="RYUGE COFFEE" />
+    <meta property="og:title" content="龍華珈琲" />
     <meta
       property="og:description"
       content="鎌倉の余韻を、ご自宅でも。 Take a piece of Kamakura home."
     />
     <meta property="og:type" content="website" />
-    <title>RYUGE COFFEE</title>
-    <link rel="icon" href="./ryuge-mark.svg" type="image/svg+xml" />
+    <title>龍華珈琲 | Ryuge Coffee</title>
+    <link rel="icon" href="./assets/ryuge-seal.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -65,27 +65,37 @@
 
       .page {
         width: min(100%, 430px);
-        padding: 20px 0 16px;
+        padding: 12px 0 16px;
         text-align: center;
       }
 
-      .mark {
-        width: 72px;
-        height: 72px;
-        margin: 0 auto 24px;
+      .seal {
+        display: block;
+        width: clamp(132px, 42vw, 176px);
+        height: auto;
+        margin: 0 auto 22px;
+        mix-blend-mode: multiply;
+        opacity: 0.94;
       }
 
       h1 {
         margin: 0;
+        font-size: clamp(2.25rem, 13vw, 3.35rem);
+        font-weight: 500;
+        letter-spacing: 0.16em;
+        line-height: 1.08;
+      }
+
+      .subhead {
+        margin: 10px 0 0;
+        color: #6b5542;
         font-family: "Sorts Mill Goudy", "Noto Serif JP", serif;
-        font-size: clamp(2.15rem, 12vw, 3.2rem);
-        font-weight: 400;
+        font-size: 0.98rem;
         letter-spacing: 0.08em;
-        line-height: 0.98;
       }
 
       .lead {
-        margin: 24px auto 0;
+        margin: 28px auto 0;
         color: #4a392b;
         font-size: 1.02rem;
         font-weight: 500;
@@ -155,9 +165,8 @@
           padding-inline: 14px;
         }
 
-        .mark {
-          width: 64px;
-          height: 64px;
+        .seal {
+          width: 126px;
         }
 
         .lead {
@@ -168,10 +177,11 @@
   </head>
   <body>
     <main>
-      <section class="page" aria-label="RYUGE COFFEE links">
-        <img class="mark" src="./ryuge-mark.svg" alt="" aria-hidden="true" />
+      <section class="page" aria-label="龍華珈琲 links">
+        <img class="seal" src="./assets/ryuge-seal.png" alt="龍華珈琲" />
 
-        <h1>RYUGE<br />COFFEE</h1>
+        <h1>龍華珈琲</h1>
+        <p class="subhead">Ryuge Coffee</p>
 
         <p class="lead">
           鎌倉の余韻を、ご自宅でも。

@@ -1,4 +1,4 @@
-# RYUGE COFFEE Links
+# 龍華珈琲 Links
 
 名刺サイズの紙やショップカードに載せる QR コードのリンク先として使う、1 ページだけの静的サイトです。
 
@@ -15,7 +15,7 @@
 ## Deploy To Vercel
 
 1. Vercel で新規プロジェクトを作成します。
-2. Project Root / Root Directory に `ryuge-coffee-links` を指定します。
+2. Project Root / Root Directory は空欄のままで問題ありません。
 3. Framework Preset は `Other` または `No Framework` を選びます。
 4. Build Command は空欄のままで問題ありません。
 5. Output Directory も空欄のままで問題ありません。
